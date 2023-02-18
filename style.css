@@ -223,10 +223,10 @@ html, body{
     border-top-right-radius: 28px;
     border-bottom-right-radius: 28px;
     background: #04AA6D;
-    width: 15%;
+    width: 10%;
     color:transparent;
-    text-align: center;
     position:relative;
+    text-align:left;
 }
 
 .roll_container form input{
