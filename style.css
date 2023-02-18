@@ -65,12 +65,14 @@ html, body{
     .roll button{
         position:relative;
         left: -5px;
-        text-align: justify;
-        background:red;
+        text-align: left;
+        color:black;
     }
     .roll input{
         position:relative;
         left: 5px;
+        background:red;
+
     }
 }
 
