@@ -305,6 +305,9 @@ html, body{
     justify-content: center;
     flex-direction: column;
     align-items: baseline;
+    -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.51);
+-moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.51);
+box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.51);
 }
 .roll2 .html_example h1{
     margin-left:10px;
