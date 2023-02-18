@@ -67,6 +67,7 @@ html, body{
         left: -5px;
         text-align: left;
         color:black;
+        padding-right:10px;
     }
     .roll input{
         position:relative;
