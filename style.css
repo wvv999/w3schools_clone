@@ -323,8 +323,7 @@ html, body{
     background: #007c4e;
 }
 .example_show{
-    margin:10px;
-    width: 96%;
+    width: 94%;
     height: 70%;
     background:#151a1d;
     -webkit-box-shadow: inset 0px 0px 31px 17px rgba(0,0,0,0.62);
