@@ -323,6 +323,7 @@ html, body{
     background: #007c4e;
 }
 .example_show{
+    margin-left:10px;
     width: 94%;
     height: 70%;
     background:#151a1d;
