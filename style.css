@@ -1,0 +1,311 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.cabecalho{
+    width: 100%;
+    background: rgb(34, 52, 70);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+@media (max-width:1280px){
+    .login ul li:nth-child(1){
+        display: none;
+    }
+}
+
+@media (max-width:1180px){
+    .login ul li:nth-child(1),
+    .login ul li:nth-child(2)
+    {
+        display: none;
+    }
+}
+
+@media (max-width:1000px){
+    .login ul li:nth-child(1),
+    .login ul li:nth-child(2),
+    .login ul li:nth-child(3){
+        display: none;
+    }
+    
+}
+@media (max-width:890px){
+    .cabecalho .menu{
+        display: inline-block !important;
+    }
+    .cabecalho > .logo > ul{
+        display:none !important;
+    }
+    .configuracoes > ul > li:nth-child(1){
+        display: none;
+    }
+    .roll_container{
+        width: 80%;
+    }
+    .roll2{
+        display:flex;
+        flex-direction: column;
+    }
+    .roll2 > form{
+        width: 30%;
+    }
+}
+
+.cabecalho > .menu{
+    display: none;
+    text-align: center;
+    padding:32px;
+    font-size: 32px;
+    color: rgb(232, 231, 231);
+}
+
+.cabecalho > .w3img{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width:60px;
+    height: 80px;
+    transform: translateY(10px);
+    margin-left: 14px;
+}
+
+.logo > ul,
+.login > ul{
+    display:flex;
+    list-style: none;
+}
+
+.logo > ul > li{
+    display: inline-block;
+    padding:26px 10px;
+    cursor: pointer;
+}
+
+.login > ul > li{
+    background-color: white;
+    cursor: pointer;
+    padding: 14px;
+    margin: 0 10px;
+}
+
+.logo > ul > li > a{
+    color: rgb(232, 231, 231);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.login > ul > li > a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.logo > ul > li:hover{
+    background: #04AA6D;
+}
+
+.configuracoes > ul{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.configuracoes > ul > li{
+    margin:0 10px;
+}
+
+.login > ul > li{
+    border-radius: 36px;
+}
+
+.login > ul > .logar{
+    background: #04AA6D;
+    display: inline-block;
+    width: 120px;
+    border-radius: 36px;
+    text-align: center;
+}
+
+.login > ul > .logar > a{
+    color: white;
+}
+
+.login > ul > .logar:hover{
+    background: #036f48;
+}
+
+.login > ul > .createwebsite{
+    background: #FFF4A3;
+}
+
+.login > ul > .getcertified{
+    background: #FFC0C7;
+}
+
+.roll{
+    width: 100%;
+    height: 500px;
+    background: rgb(13,23,33);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.roll_container{
+    position: static;
+    margin-top: 100px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+}
+
+.roll_container h1{
+    font-size: 70px;
+    font-weight: 700;
+    color:white;
+}
+
+.roll_container p{
+    color: #FFC0C7;
+    font-weight: 700;
+    margin-top: 30px!important;
+    font-size: 23px;
+}
+
+.roll_container form{
+    width: 115%;
+    margin:20px;
+}
+
+.roll_container a{
+    color:white;
+    font-size: 0.8em;
+}
+
+.roll_container form button,
+.roll_container form input{
+    padding:14px;
+    border:0;
+    font-size: 0.5em;
+}
+
+.roll_container form button{
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    background: #04AA6D;
+    width: 20%;
+}
+
+.roll_container form input{
+    width: 80%;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+}
+
+#torto{
+    display:block;
+    background:rgb(13,23,33);
+}
+
+.roll2{
+    width: 100%;
+    background: #D9EEE1;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.roll2 form{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    margin:40px;
+    text-align: center;
+    align-items: center;
+}
+
+.roll2 form h1{
+    margin:10px;
+    font-size: 60px;
+}
+
+.roll2 form p{
+    font-size: 15px;
+    margin-bottom:10px;
+}
+
+.roll2 form button{
+    padding:14px;
+    margin:10px;
+    border-radius:28px;
+    border:transparent;
+    background: #04AA6D;
+    color:white;
+    width: 70%;
+}
+
+.roll2 form button[id="2"]{
+    background-color: #FFF4A3;
+    color:black;
+}
+
+.roll2 form button[id="3"]{
+    background-color: #282A35;
+}
+
+.roll2 form button[id="4"]{
+    background-color: pink;
+    color:black;
+}
+
+.roll2 .html_example{
+    margin:30px;
+    width: 430px;
+    height:400px;
+    background:#38444d;
+    border-radius: 5px;
+}
+
+.roll3{
+    background:#FFF4A3;
+    width: 100%;
+    height:90vh;
+}
+
+.roll4{
+    background:rgb(13,23,33);
+    width: 100%;
+    height:90vh;
+}
+
+.roll5{
+    background: #F3ECEA;
+    width: 100%;
+    height:90vh;
+}
+
+.roll6{
+    background:#96D4D4;
+    width: 100%;
+    height:90vh;
+}
