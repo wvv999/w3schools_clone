@@ -219,6 +219,7 @@ html, body{
     border-top-left-radius: 28px;
     border-bottom-left-radius: 28px;
     border-right: 0;
+    background:red;
 }
 
 #torto{
