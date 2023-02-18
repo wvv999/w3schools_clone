@@ -294,6 +294,7 @@ html, body{
 }
 
 .roll2 .html_example{
+    padding:10px;
     color:lightgray;
     margin:30px;
     width: 430px;
