@@ -64,7 +64,11 @@ html, body{
     }
     .roll button{
         position:relative;
-        left: -30px;
+        left: -5px;
+    }
+    .roll input{
+        position:relative;
+        left: 5px;
     }
 }
 
