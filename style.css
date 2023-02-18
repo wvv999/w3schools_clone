@@ -327,9 +327,9 @@ html, body{
     width: 94%;
     height: 70%;
     background:#4d4f51;
-    -webkit-box-shadow: inset 0px 0px 31px 17px rgba(0,0,0,0.62);
-    -moz-box-shadow: inset 0px 0px 31px 17px rgba(0,0,0,0.62);
-    box-shadow: inset 0px 0px 31px 17px rgba(0,0,0,0.62);
+    -webkit-box-shadow: inset 0px 0px 31px 17px rgba(0,0,0,0.51);
+    -moz-box-shadow: inset 0px 0px 31px 17px rgba(0,0,0,0.51);
+    box-shadow: inset 0px 0px 31px 17px rgba(0,0,0,0.51);
 }
 
 .roll3{
