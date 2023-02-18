@@ -294,12 +294,36 @@ html, body{
 }
 
 .roll2 .html_example{
+    color:lightgray;
     margin:30px;
     width: 430px;
     max-width: 96%;
     height:400px;
     background:#38444d;
     border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: baseline;
+}
+.roll2 .html_example button{
+    padding:10px;
+    border-radius: 20px;
+    background: #04AA6D;
+    border:transparent;
+    cursor:pointer;
+}
+.roll2 .html_example button:hover{
+    background: #007c4e;
+}
+.example_show{
+    margin:10px;
+    width: 96%;
+    height: 70%;
+    background:#151a1d;
+    -webkit-box-shadow: inset 0px 0px 31px 17px rgba(0,0,0,0.62);
+    -moz-box-shadow: inset 0px 0px 31px 17px rgba(0,0,0,0.62);
+    box-shadow: inset 0px 0px 31px 17px rgba(0,0,0,0.62);
 }
 
 .roll3{
