@@ -306,6 +306,10 @@ html, body{
     flex-direction: column;
     align-items: baseline;
 }
+.roll2 .html_example h1{
+    margin-left:10px;
+}
+
 .roll2 .html_example button{
     margin:10px;
     padding:10px;
