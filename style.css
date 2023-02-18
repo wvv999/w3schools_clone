@@ -67,12 +67,17 @@ html, body{
         left: -5px;
         text-align: left;
         color:black;
-        padding-right:100px;
     }
     .roll input{
         position:relative;
         left: 5px;
 
+    }
+}
+
+@media (max-width:400px){
+    .cabecalho{
+        background:red !important;
     }
 }
 
