@@ -296,6 +296,7 @@ html, body{
 .roll2 .html_example{
     margin:30px;
     width: 430px;
+    max-width: 96%;
     height:400px;
     background:#38444d;
     border-radius: 5px;
